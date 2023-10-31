@@ -1,0 +1,29 @@
+
+6377 families who have had at least 7 children between 1975 and 2017 in France,
+from same father and mother (known).
+
+Data coming from Didier Castille
+
+Didier Castille spent his career at INSEE (Institut National de la Statistique
+et des Etudes Economiques, the national French institute of statistics) and had
+access to the data of INSEE.
+
+Didier Castille agreed to make these data publicly available but he wants to
+stress the following points:
+- These files are not INSEE files, they are INSEE files adapted by D. Castille.
+- These files are neither official nor scientifically valid because they depend
+  on the good faith of D. Castille.
+
+Families_7.ods.zip
+--------------------
+Original file, sent by Didier Castille 2020-11-10
+
+Didier Castille sent the following indications:
+zp is yyyymmaa of birth for father, zm for mother, z1 for chilld 1, etc...
+xp is the range of the day of birth for father, xm for mother etc...
+
+family7.csv.zip
+--------------------
+Same as Families_7.ods.zip but formated as csv (built by Thierry Graff)
+Fields separated by semicolon
+First line contains field names

@@ -1,0 +1,26 @@
+
+The file gq-heredity-newalch-20916.csv is a CSV version of a PDF file coming from
+https://newalchemypress.com/gauquelin/gauquelin_docs/mom_dad_kid_final20916_3a-m_column_first.pdf
+
+Each line contains the birth coordinates of mother, father and child.
+
+---- More precise indications from Nick Kollertrom 2021-03-13 ----
+
+We created that by putting together all of the Gauquelin 'Heredity' data sets: 'that group was formed by removing single-parent families and child birthdata, leaving only the couples ... This was done with assistance from Ray Murphy in Adelaide who set up the mother-father pairs of data; Kyösti Tarvainen who has published several studies on this complete synastry-data-set, one with special reference to the eldest child; and then programmer Sven H. provided technical assistance to establish a fault-free selection of the father-mother pairs and eldest child on an Excel database."
+
+---- Conversion from PDF to CSV (by Thierry Graff) ---- 
+
+1 - Convert PDF to tmp.txt
+pdftotext -layout mom_dad_kid_final20916_3a-m_column_first.pdf tmp.txt
+
+2 - Edit tmp.txt, and manually find and replace : one special character is replaced by nothing.
+Also manually correct ~20 lines (from line 17751) not formatted correctly (some lines are broken in 2, and some months and years not separated by space).
+
+3 - Generate csv from tmp.txt with bash command
+grep -v -e '^$' tmp.txt | \                         # Remove white lines
+grep -v 'file:///' | \                              # Remove useless lines (footer containing the url of the file)
+sed -e 's#\([0-9][NSEW]\) \([0-9]\)#\10\2#g' | \    # Change strings like '48N 5' to '48N05'
+tr -s '[:space:]' | \                               # Convert multiple spaces to one space
+sed -e 's/^ //g' | \                                # Remove first space of each line
+sed -e 's/ /;/g' \                                  # Convert spaces to semicolon (;)
+> gq-heredity-newalch-20916.csv                     # Generate the csv

@@ -1,0 +1,45 @@
+
+Birth in France in year 2000.
+Contains 591 936 { mother, father, child } birth days, untimed.
+Also contains 321 838 wedding dates.
+(total 2 097 646 dates)
+
+Data coming from Didier Castille.
+
+Didier Castille spent his career at INSEE (Institut National de la Statistique
+et des Etudes Economiques, the national French institute of statistics) and had
+access to the data of INSEE.
+
+Didier Castille agreed to make these data publicly available but he wants to
+stress the following points:
+- These files are not INSEE files, they are INSEE files adapted by D. Castille.
+- These files are neither official nor scientifically valid because they depend
+  on the good faith of D. Castille.
+
+The first line contains the field names.
+
+jnais00     day of birth CHILD
+mnais00     month of birth CHILD
+anais00     year of birth CHILD
+JNAISM      day of birth MOTHER
+MNAISM      month of birth  MOTHER
+ANAISM      year of birth  MOTHER
+JNAISP      day of birth  FATHER
+MNAISP      month of birth  FATHER
+ANAISP      year of birth  FATHER
+JMAR        day parents' wedding 00 when unknown
+MMAR        month parents' wedding= 00 when unknown
+AMAR        year parents' wedding= 0000 when unknown
+rangmar00   range of child among sibblings 0 when unknown
+cnaism      french city code mother birth place
+cnaisp      french city code father birth place
+d00         number of days since January 1, 1960. and birth CHILD
+j00         number of days since January 1 and birth CHILD
+dp          number of days since January 1, 1960. and birth FATHER
+jp          number of days since January 1 and birth FATHER
+dm          number of days since January 1, 1960. and birth MOTHER
+jm          number of days since January 1 and birth MOTHER
+dma         number of days since January 1, 1960. and WEDDING DATE
+jma         number of days since January 1 and birth WEDDING DATE
+id          Identity key I built for sorting or merging files
+id2         Identity key I built for sorting or merging files
