@@ -1,12 +1,12 @@
 
-The file gq-heredity-newalch-20916.csv is a CSV version of a PDF file coming from
-https://newalchemypress.com/gauquelin/gauquelin_docs/mom_dad_kid_final20916_3a-m_column_first.pdf
+20 916 triples (mother, father and child)
 
-Each line contains the birth coordinates of mother, father and child.
+CSV version of the PDF file
+https://newalchemypress.com/gauquelin/gauquelin_docs/mom_dad_kid_final20916_3a-m_column_first.pdf
+With the authorization of Nick Kollertrom
 
 ---- More precise indications from Nick Kollertrom 2021-03-13 ----
-
-We created that by putting together all of the Gauquelin 'Heredity' data sets: 'that group was formed by removing single-parent families and child birthdata, leaving only the couples ... This was done with assistance from Ray Murphy in Adelaide who set up the mother-father pairs of data; Kyösti Tarvainen who has published several studies on this complete synastry-data-set, one with special reference to the eldest child; and then programmer Sven H. provided technical assistance to establish a fault-free selection of the father-mother pairs and eldest child on an Excel database."
+<< We created that by putting together all of the Gauquelin 'Heredity' data sets: 'that group was formed by removing single-parent families and child birthdata, leaving only the couples ... This was done with assistance from Ray Murphy in Adelaide who set up the mother-father pairs of data; Kyösti Tarvainen who has published several studies on this complete synastry-data-set, one with special reference to the eldest child; and then programmer Sven H. provided technical assistance to establish a fault-free selection of the father-mother pairs and eldest child on an Excel database. >>
 
 ---- Conversion from PDF to CSV (by Thierry Graff) ---- 
 

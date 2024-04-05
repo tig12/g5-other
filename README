@@ -1,6 +1,40 @@
 
-This repository contains data downloadable from https://opengauquelin.org but not included in the open Gauquelin database.
+This repository contains data used to test astrology.
 
-See README files of each directory for informations about data.
+Downloadable from https://opengauquelin.org
+but not included in the open Gauquelin database.
+
+g5-other
+    ├── castille
+    │   ├── a00
+    │   └── family7
+    ├── de-cene
+    │   └── go-chess
+    └── gauquelin
+        └── heredity-newalch-20916
+
+Didier Castille - a00
+---------------------
+Birth in France in year 2000.
+- 591 936 { mother, father, child } birth days
+- 321 838 wedding dates
+Total 2 097 646 dates
+Untimed data
+
+Didier Castille - family7
+-------------------------
+6377 families who have had at least 7 children between 1975 and 2017 in France,
+from same father and mother (known).
+Untimed data
+
+De Cene - go-chess
+------------------
+1495 top-level chess and go players.
+Untimed data
+
+Gauquelin - heredity-newalch-20916
+----------------------------------
+20916 { mother, father, child } birth days
+Timed data
 
 Repository created 2023-10-30 by Thierry Graff.

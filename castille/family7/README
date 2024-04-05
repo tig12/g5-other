@@ -27,3 +27,27 @@ family7.csv.zip
 Same as Families_7.ods.zip but formated as csv (built by Thierry Graff)
 Fields separated by semicolon
 First line contains field names
+
+Fields :
+--------------------
+z are birth dates, format YYYYMMDD
+x are sun longitude, in degrees
+
+zp  birthdate of father
+zm  birthdate of mother
+z1  birthdate of child 1
+z2  birthdate of child 2
+z3  birthdate of child 3
+z4  birthdate of child 4
+z5  birthdate of child 5
+z6  birthdate of child 6
+z7  birthdate of child 7
+xp  sun longitude of father
+xm  sun longitude of mother
+x1  sun longitude of child 1
+x2  sun longitude of child 2
+x3  sun longitude of child 3
+x4  sun longitude of child 4
+x5  sun longitude of child 5
+x6  sun longitude of child 6
+x7  sun longitude of child 7
