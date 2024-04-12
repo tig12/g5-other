@@ -16,16 +16,17 @@ g5-other
 Didier Castille - a00
 ---------------------
 Birth in France in year 2000.
-- 591 936 { mother, father, child } birth days
+- 591 936 birth days of {mother, father, child}
 - 321 838 wedding dates
 Total 2 097 646 dates
 Untimed data
 
 Didier Castille - family7
 -------------------------
-6377 families who have had at least 7 children between 1975 and 2017 in France,
-from same father and mother (known).
-Untimed data
+family7, 6377 families of 7 children between 1975 and 2017 in France, from same father and mother (known)
+Births of {mother, father and 7 children}
+Total 57 393 dates
+Untimed data 
 
 De Cene - go-chess
 ------------------
@@ -34,7 +35,7 @@ Untimed data
 
 Gauquelin - heredity-newalch-20916
 ----------------------------------
-20916 { mother, father, child } birth days
+20 916 birth days of {mother, father, child}
 Timed data
 
 Repository created 2023-10-30 by Thierry Graff.
